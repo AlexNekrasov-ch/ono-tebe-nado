@@ -31,7 +31,6 @@ main {
 
 .header__link {
   font-size: 18px;
-  white-space: nowrap;
 }
 
 .text-link:hover {
