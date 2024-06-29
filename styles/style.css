@@ -150,7 +150,7 @@ main {
 }
 
 .bet-button {
-  border: 1px #FFF solid;
+  border: 1px currentColor solid;
   padding: 14px 32px;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
