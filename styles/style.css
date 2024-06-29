@@ -182,7 +182,7 @@ main {
 .lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 25px;
+  gap: 25px;
   list-style: none;
 }
 
