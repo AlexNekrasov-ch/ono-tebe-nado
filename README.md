@@ -1,1 +1,1 @@
-First project "Ono tebe nado"
+https://github.com/AlexNekrasov-ch/first-project
