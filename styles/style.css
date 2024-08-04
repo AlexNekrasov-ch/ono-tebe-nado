@@ -180,7 +180,7 @@
   padding: 0 24px 146px;
   min-height: 692px;
   background-color: #fff;
-  margin-bottom: 37px;
+  margin-bottom: 35px;
 }
 
 .lots__header {
@@ -188,7 +188,7 @@
   margin-bottom: 27px;
 }
 
-.second-header {
+.second-header_font {
   font-weight: bold;
   font-size: 40px;
 }
@@ -205,6 +205,8 @@
   height: 563px;
   z-index: 0;
   list-style: none;
+
+  
 }
 
 .card-link {
@@ -220,6 +222,7 @@
   justify-content: space-between;
   height: 100%;
   padding: 51px 40px 48px;
+  
   background-size: cover;
   background-position: center;
   position: relative;
@@ -261,14 +264,62 @@
 
 
 .about {
-  padding: 35px 0 0 47px;
   margin-bottom: 180px;
 
      /* remove later this height with background-color */
-  background-color: blue;
-  height: 560px;
+  /*background-color: blue;*/
+  
      /* remove later this height with background-color */
+  
+  display: grid;
+  grid-template-columns: 383px 1fr;
+  grid-template-rows: 250px 1fr;
+  grid-template-areas:
+  "logo header"
+  ". text";
+
+  
 }
+
+.about__logo {
+  grid-area: logo;
+  justify-self: center;  
+  justify-self: center;  
+}
+
+.about__logo-circle {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+}
+
+.about__logo-label {
+  display: block;
+  margin: auto;
+  padding-top: 8px;
+  width: 148px;
+}
+
+.about__header {
+  grid-area: header;
+  align-self: center;
+}
+
+.about__text {
+  grid-area: text;
+  padding-right: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  gap: 24px;
+  word-spacing: 0.7px;
+}
+
+
+
 
 .footer {
   padding: 0;
