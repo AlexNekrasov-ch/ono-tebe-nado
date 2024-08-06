@@ -79,7 +79,7 @@
 }
 
 .cover {
-  padding: 163px 20px 50px 50px;
+  padding: 165px 50px 48px;
   min-height: 757px;
   margin-bottom: 179px;
   position: relative;
@@ -116,8 +116,7 @@
 }
 
 .cover__bet-line {
-  margin-left: 28.5px;
-  margin-right: 31px;  
+  margin-left: 27.5px;
   z-index: 1;
   display: flex;
   justify-content: space-between;
@@ -131,11 +130,10 @@
   font-weight: inherit;
   font-size: 21.5px;
   word-spacing: 20.3px;
-
 }
 
 .cover__bet-line_button {
-  padding-left: 29.5px;
+  padding-left: 28.5px;
   padding-right: 32px;  
   border: 0.5px solid #fff;
   text-decoration: none;
@@ -151,7 +149,6 @@
 
 .special-alignment-middle {
   margin-top: 6px;
-  margin-right: 25px;
 }
 
 .text-right {
@@ -161,6 +158,14 @@
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
+
+
+
+.letter-spacing-none {
+  letter-spacing: 0;
+}
+
+
 
 .lots {
   padding: 0 24px 146px;
