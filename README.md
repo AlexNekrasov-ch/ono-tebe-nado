@@ -1,1 +1,1 @@
-https://github.com/AlexNekrasov-ch/first-project
+https://github.com/AlexNekrasov-ch/ono-tebe-nado
