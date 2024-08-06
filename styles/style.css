@@ -80,7 +80,7 @@
 
 .cover {
   padding: 163px 20px 150px 50px;
-  height: 757px;
+  min-height: 757px;
   margin-bottom: 179px;
   position: relative;
   color: #FFFFFF;
