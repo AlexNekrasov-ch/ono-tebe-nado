@@ -174,7 +174,8 @@
   margin-bottom: 27px;
 }
 
-.second-header_font {
+.lots__header_font,
+.about__header_font {
   font-weight: bold;
   font-size: 40px;
 }
