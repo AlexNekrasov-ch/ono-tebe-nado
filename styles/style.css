@@ -188,7 +188,7 @@
 }
 
 .lots__card-list-item {
-  height: 563px;
+  min-height: 563px;
   z-index: 0;
   list-style: none;  
 }
