@@ -295,7 +295,7 @@
 }
 
 .footer {
-  padding: 0 51px;
+  padding: 0 51px 88px;
   display: grid;
   grid-template-columns: 230px auto 129px;
   justify-content: space-between;
