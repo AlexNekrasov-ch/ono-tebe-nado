@@ -25,7 +25,7 @@
   gap: 32px;
   list-style: circle;
   flex-wrap: nowrap;
-  width: 395px;
+  max-width: 395px;
 }
 
 .header__links-list-item {
@@ -57,7 +57,7 @@
 }
 
 .header__address {
-  width: 232px;
+  max-width: 232px;
   justify-self: end;
   font-style: inherit;
 }
